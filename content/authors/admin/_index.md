@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Soumyadeep Sarma
+#title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: Soumyadeep Sarma
 
 # Full name (for SEO)
 first_name: Soumyadeep
@@ -11,13 +11,13 @@ last_name: Sarma
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🎹
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Bachelor's Student at IISc
+role: UG Student at Indian Institute of Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,61 +25,61 @@ organizations:
     url: https://iisc.ac.in/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Quantum Information Theory and Quantum Computing. A more precise description is that I work (or would like to work on) on Quantum algorithms, complexity classes and QML on the computing side, and on open quantum systems and QC interfaced with condensed matter physics in Quantum Information theory.
+bio: My research interests include Quantum Information Theory (Open Quantum Systems and applications in Condensed matter Physics) and Quantum Computing (Quantum Complexity Classes, Error correction, Algorithms and Quantum Machine Learning).
 
 # Interests to show in About widget
 interests:
-  - Quantum Information Theory
-  - Quantum Algorithms and Complexity classes
-  - Applied Quantum Computing in Physics
+  - Quantum Computing
+  - Quantum Information theory
+  - Condensed Matter Physics
 
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Physics
+    - course: BSc (Research). Major in Physics, Minor in Quantum Technologies
       institution: Indian Institute of Science
-      year: 2021
+      year: 2025
     
+
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Technical
     items:
       - name: Python
-        description: 'Experience with packages like Qiskit and QuTiP'
-        percent: 80
+        description: 'Proficient in using Qiskit and QuTiP libraries for emulating quantum circuits and open quantum systems'
+        percent: 100
         icon: python
         icon_pack: fab
-      - name: Matlab
-        description: ''
-        percent: 100
+      - name: Mathematica
+        description: 'Adept in using matrix formulations, complex analysis and functional programming'
+        percent: 80
         icon: chart-line
         icon_pack: fas
-      - name: Mathematica
-        description: ''
-        percent: 40
+      - name: MATLAB
+        description: 'Adept in utilizing Convex Optimization techniques for Semi-Definite and/or Linear programming'
+        percent: 80
         icon: database
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Swimming
-        description: 'Have won many gold medals in both individual and team intra-IISc swimming competitions'
-        percent: 80
-        icon: person-swimming
-        icon_pack: fas
       - name: Piano
-        description: 'Intermediate level piano player. Have passed Grade 6 Trinity Keyboard exams with distinction'
+        description: 'Playing Piano for 9 years. Have been awarded Grade 8 distinction under Trinity certification'
+        percent: 100
+        icon: person-hiking
+        icon_pack: fas
+      - name: Swimming
+        description: ''
         percent: 80
-        icon: camera-retro
-        icon_pack: fas  
-      - name: Reading 
-        description: 'Crime and Detective Novels are my favourite genre'
+        icon: swimming
+        icon_pack: fas
+      - name: Novels
+        description: 'Love reading mystery thrillers whenever free'
         percent: 60
         icon: book
         icon_pack: fas
-      
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -88,9 +88,15 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:ssoumyadeep@iisc.ac.in
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+    link: mailto:soumyadeepsarma3@gmail.com
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/lo5.68los/
+    label: Follow me on Insta
+    display:
+      header: true
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=CQ33xLMAAAAJ&hl=en
   - icon: github
     icon_pack: fab
@@ -103,11 +109,11 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV_Soumyadeep.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am a fourth-year undegraduate student at Indian Institute of Science, Bengaluru. My research interests include Quantum Information theory in Physics and Quantum computing including quantum algorithms, complexity classes and QML, but always open to exploring new topics in these two broad fields. I have also worked on topics of theoretical physics including Statistical mechanics of lattice systems and applied Quantum Optics, as I believe that to fully understand the field of Quantum computing, I have to study and work on the combined fields of Physics, Mathematics and Computer Science, which is reflected in my coursework and projects at IISc.
+Soumyadeep Sarma is an undergraduate student at IISc Bangalore, India. He is currently pursuing a major in Physics and a minor in Quantum Technologies. He has worked with on a variety of interesting problems in topics ranging from studying lindbladians in Open Quantum systems tostudying cyclic codes for error correction, and Quantum Merlin-Arthur subclasses under Quantum Complexity theory. He believes that a combination of Physics, Computer Science and Mathematics is essential for a clear understanding of the current research in Quantum computing and Information theory.
 {style="text-align: justify;"}
