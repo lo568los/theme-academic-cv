@@ -1,9 +1,9 @@
 ---
 title: 'Bug-eecha: A Gamified Approach to Programming Problem Comprehension and Testing'
 authors:
-- Viraj Kumar
-- Amrit M Joseph
 - Soumyadeep Sarma
+- Amrit M Joseph
+- Viraj Kumar
 - ' Shelly'
 date: '2023-01-01'
 publishDate: '2024-08-02T17:28:45.820404Z'
