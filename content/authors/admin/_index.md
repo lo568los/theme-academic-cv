@@ -68,12 +68,12 @@ skills:
       - name: Piano
         description: 'Playing Piano for 9 years. Have been awarded Grade 8 distinction under Trinity certification'
         percent: 100
-        icon: person-hiking
+        icon: piano
         icon_pack: fas
       - name: Swimming
         description: ''
         percent: 80
-        icon: swimming
+        icon: person-swimming
         icon_pack: fas
       - name: Novels
         description: 'Love reading mystery thrillers whenever free'
