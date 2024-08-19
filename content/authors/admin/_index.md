@@ -115,5 +115,5 @@ social:
 highlight_name: true
 ---
 
-Soumyadeep Sarma is an undergraduate student at IISc Bangalore, India. He is currently pursuing a major in Physics and a minor in Quantum Technologies. He has worked with on a variety of interesting problems in topics ranging from studying lindbladians in Open Quantum systems tostudying cyclic codes for error correction, and Quantum Merlin-Arthur subclasses under Quantum Complexity theory. He believes that a combination of Physics, Computer Science and Mathematics is essential for a clear understanding of the current research in Quantum computing and Information theory.
+Soumyadeep Sarma is an undergraduate student at IISc Bangalore, India. He is currently pursuing a major in Physics and a minor in Quantum Technologies. He has worked with on a variety of interesting problems in topics ranging from studying lindbladians in Open Quantum systems to studying cyclic codes for error correction, and Quantum Merlin-Arthur subclasses under Quantum Complexity theory. He believes that a combination of Physics, Computer Science and Mathematics is essential for a clear understanding of the current research in Quantum computing and Information theory.
 {style="text-align: justify;"}
