@@ -71,7 +71,7 @@ skills:
         icon: music
         icon_pack: fas
       - name: Swimming
-        description: ''
+        description: 'Swimming as an exercise, won many gold and silver medals in intra-college events'
         percent: 80
         icon: person-swimming
         icon_pack: fas
