@@ -65,6 +65,40 @@ sections:
     design:
       columns: '2'
       view: citation
+
+  - block: portfolio
+    id: projects
+    content:
+      title: Ongoing Projects/Term Projects
+      description: Here I describe my current projects and completed term papers which are unpublished and/or are undergoing peer review.
+      filters:
+        folders:
+          - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Q.Comp
+          tag: Q.Comp
+        - name: Q.Info
+          tag: Q.Info
+        - name: Stat Mech/CMT
+          tag: Stat/CMT
+        - name: Other
+          tag: other
+        
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   #- block: collection
    # id: featured
     #content:
@@ -130,39 +164,7 @@ sections:
       columns: '2'
   
  
-  - block: portfolio
-    id: projects
-    content:
-      title: Ongoing Projects/Term Projects
-      description: Here I describe my current projects and completed term papers which are unpublished and/or are undergoing peer review.
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Q.Comp
-          tag: Q.Comp
-        - name: Q.Info
-          tag: Q.Info
-        - name: Stat Mech/CMT
-          tag: Stat/CMT
-        - name: Other
-          tag: other
-        
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
+  
   
 
   - block: accomplishments
