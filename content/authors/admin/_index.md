@@ -89,10 +89,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:soumyadeepsarma3@gmail.com
-  #- icon: instagram
-  #  icon_pack: fab
-  #  link: https://www.instagram.com/lo5.68los/
-  #  label: Follow me on Insta
+  - icon: instagram
+    icon_pack: fab
+    link: https://www.instagram.com/lo5.68los/
+    label: Follow me on Insta
     display:
       header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack

@@ -2,7 +2,7 @@
 title: Numerically studying k-mers on k by L strips
 summary: We find novel results and methods for k = 3 rods on 3 by L strips, and introduce new techniques to study such systems.
 tags:
-  - Stat/CMT
+  - Stat and CMT
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

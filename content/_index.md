@@ -89,7 +89,7 @@ sections:
         - name: Q.Info
           tag: QInfo
         - name: Stat Mech/CMT
-          tag: Stat/CMT
+          tag: Stat and CMT
         - name: Other
           tag: other
         
