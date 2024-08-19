@@ -9,23 +9,22 @@ main:
     weight: 10
   - name: Publications
     url: '#pubs'
-    weight: 50
+    weight: 20
   - name: Projects
     url: '#projects'
     weight: 30
-  #- name: Certifications
-   # url: '#certs'
-    #weight: 40
-  #- name: Experience
-   # url: '#exp'
-    #weight: 40
-  #- name: Gallery
-   # url: '#gallery'
-    #weight: 50
-  
+  - name: Certifications
+    url: '#certs'
+    weight: 40
+  - name: Experience
+    url: '#exp'
+    weight: 50
+  - name: Gallery
+    url: '#gallery'
+    weight: 60
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

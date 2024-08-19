@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 'Soumyadeep Sarma's Portfolio'
+title: ''
 date: 2024-10-24
 type: landing
 
@@ -8,7 +8,7 @@ sections:
   - block: hero
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: Soumyadeep's Portfolio
+      title: Hugo Academic Theme
       image:
         filename: hero-academic.png
       cta:
@@ -123,7 +123,9 @@ sections:
           location: ""
           date_start: '2024-08-02'
           date_end: '2023-07-30'
-          description: Graded and helped in deciding the final grading scheme for IPhO 2023 and EuPhO 2022, 2023 and 2024 as a paid volunteer. Also assisted in moderation rounds for deciding the final scores of students participating.
+          description: |2-
+          
+              Graded and helped in deciding the final grading scheme for IPhO 2023 and EuPhO 2022, 2023 and 2024 as a paid volunteer. Also assisted in moderation rounds for deciding the final scores of students participating.
     design:
       columns: '2'
   
