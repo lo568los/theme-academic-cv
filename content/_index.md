@@ -199,33 +199,34 @@ sections:
           organization_url: https://www.ibm.com/quantum
           title: Qiskit Global Summer School 2023-24
           url: ''
-        - certificate_url: https://coursera.org/share/7d8f458be0e3e248340f5db1ad43f55e
-          date_end: '2023-10-25'
-          date_start: '2023-09-25'
-          description: Understood how to organise ML projects and structure data splits
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Structuring Machine Learning projects
-          url: ''
-        - certificate_url: https://coursera.org/share/7cfb3e3b3d062679d71374e9fbfbeab7
-          date_end: '2023-09-25'
-          date_start: '2023-08-25'
-          description: Worked on implementing techniques like regularization on pet python projects
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Improving Deep Neural Networks, Hyperparameter Tuning, Regularization and Optimization
-          url: ''
-        - certificate_url: https://coursera.org/share/04290b9899b5076f96163b8134d0372b
-          date_end: '2023-08-25'
-          date_start: '2023-07-25'
-          description: Studied the basics concepts of neural Networks and Deep Learning
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
+      #  - certificate_url: https://coursera.org/share/7d8f458be0e3e248340f5db1ad43f55e
+      #    date_end: '2023-10-25'
+      #    date_start: '2023-09-25'
+      #    description: Understood how to organise ML projects and structure data splits
+      #    icon: coursera
+      #    organization: Coursera
+      #    organization_url: https://www.coursera.org
+      #    title: Structuring Machine Learning projects
+      #    url: ''
+      
+      #  - certificate_url: https://coursera.org/share/7cfb3e3b3d062679d71374e9fbfbeab7
+      #    date_end: '2023-09-25'
+      #    date_start: '2023-08-25'
+      #    description: Worked on implementing techniques like regularization on pet python projects
+      #    icon: coursera
+      #    organization: Coursera
+      #    organization_url: https://www.coursera.org
+      #    title: Improving Deep Neural Networks, Hyperparameter Tuning, Regularization and Optimization
+      #    url: ''
+      #  - certificate_url: https://coursera.org/share/04290b9899b5076f96163b8134d0372b
+      #    date_end: '2023-08-25'
+      #    date_start: '2023-07-25'
+      #    description: Studied the basics concepts of neural Networks and Deep Learning
+      #    icon: coursera
+      #    organization: Coursera
+      #    organization_url: https://www.coursera.org
+      #    title: Neural Networks and Deep Learning
+      #    url: ''
         
        
     design:
