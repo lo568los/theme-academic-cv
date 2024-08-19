@@ -29,9 +29,9 @@ bio: My research interests include Quantum Information Theory (Open Quantum Syst
 
 # Interests to show in About widget
 interests:
+  - Quantum Information Theory
   - Quantum Computing
-  - Quantum Information theory
-  - Condensed Matter Physics
+  - Intersection of Quantum Information and Condensed Matter Physics
 
 # Education to show in About widget
 education:
@@ -68,7 +68,7 @@ skills:
       - name: Piano
         description: 'Playing Piano for 9 years. Have been awarded Grade 8 distinction under Trinity certification'
         percent: 100
-        icon: piano
+        icon: music
         icon_pack: fas
       - name: Swimming
         description: ''

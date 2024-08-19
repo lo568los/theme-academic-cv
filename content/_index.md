@@ -1,14 +1,14 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-date: 2022-10-24
+title: 'Soumyadeep Sarma's Portfolio'
+date: 2024-10-24
 type: landing
 
 sections:
   - block: hero
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: Hugo Academic Theme
+      title: Soumyadeep's Portfolio
       image:
         filename: hero-academic.png
       cta:
@@ -51,6 +51,7 @@ sections:
     design:
       columns: '1'
   - block: collection
+    id: pubs
     content:
       title: Recent Publications
       text: |-
@@ -76,6 +77,7 @@ sections:
      # columns: '2'
     #view: card
   - block: experience
+    id: exp
     content:
       title: Experience
       # Date format for experience
@@ -113,6 +115,15 @@ sections:
               * Analytical calculations to arrive at a Quantum circuit for Kondo dynamics
               * Modelling different types of Quantum gates and states for running the circuit on
               * Analysing entanglement, spin and Hamiltonian heating properties
+
+        - title: Online grader
+          company: IPhO, EuPhO
+          company_url: https://www.fkf.mpg.de/en
+          company_logo: org-ipho
+          location: ""
+          date_start: '2024-08-02'
+          date_end: '2023-07-30'
+          description: Graded and helped in deciding the final grading scheme for IPhO 2023 and EuPhO 2022, 2023 and 2024 as a paid volunteer. Also assisted in moderation rounds for deciding the final scores of students participating.
     design:
       columns: '2'
   
@@ -120,7 +131,8 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Current Projects
+      title: Ongoing Projects/Term Projects
+      description: Here I describe my current projects and completed term papers which are unpublished and/or are undergoing peer review.
       filters:
         folders:
           - project
@@ -139,7 +151,7 @@ sections:
         - name: Q.Info
           tag: Q.Info
         - name: Stat Mech/CMT
-          tag: Stat
+          tag: Stat/CMT
         - name: Other
           tag: other
         
@@ -152,6 +164,7 @@ sections:
   
 
   - block: accomplishments
+    id: certs
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Online Certifications'
@@ -164,37 +177,58 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
+        - certificate_url: https://www.credly.com/badges/2e7d68ad-93a6-4a86-a809-0f779aaf4b4e/public_url
+          date_end: '2024-02-20'
+          date_start: '2023-07-25'
+          description: Obtained the Advanced Badge
+          icon: ibm
+          organization: IBM Quantum
+          organization_url: https://www.ibm.com/quantum
+          title: Qiskit Quantum Explorers 2023-24
+          url: ''
+        - certificate_url: https://www.credly.com/badges/2e7d68ad-93a6-4a86-a809-0f779aaf4b4e/public_url
+          date_end: '2023-07-31'
+          date_start: '2023-07-14'
+          description: Got the Quantum excellence badge in Qiskit Global Summer school
+          icon: ibm
+          organization: IBM Quantum
+          organization_url: https://www.ibm.com/quantum
+          title: Qiskit Global Summer School 2023-24
+          url: ''
+        - certificate_url: https://coursera.org/share/7d8f458be0e3e248340f5db1ad43f55e
+          date_end: '2023-10-25'
+          date_start: '2023-09-25'
+          description: Understood how to organise ML projects and structure data splits
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Structuring Machine Learning projects
+          url: ''
+        - certificate_url: https://coursera.org/share/7cfb3e3b3d062679d71374e9fbfbeab7
+          date_end: '2023-09-25'
+          date_start: '2023-08-25'
+          description: Worked on implementing techniques like regularization on pet python projects
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Improving Deep Neural Networks\: Hyperparameter Tuning, Regularization and Optimization
+          url: ''
+        - certificate_url: https://coursera.org/share/04290b9899b5076f96163b8134d0372b
+          date_end: '2023-08-25'
+          date_start: '2023-07-25'
+          description: Studied the basics concepts of neural Networks and Deep Learning
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
           title: Neural Networks and Deep Learning
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        
+       
     design:
       columns: '2'
 
   - block: markdown
+    id: gallery
     content:
       title: Gallery
       subtitle: ''
