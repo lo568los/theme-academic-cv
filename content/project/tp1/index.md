@@ -1,5 +1,5 @@
 ---
-title: Quantum Van der Pol Oscillators \: Theory and Applications
+title: Quantum Van der Pol Oscillators - Theory and Applications
 summary: We study the theoretical framework of Quantum Van der pol oscillators, and then understand its application in Phonon Lasers
 tags:
   - Q.Info
