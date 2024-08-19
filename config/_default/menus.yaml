@@ -13,15 +13,15 @@ main:
   - name: Projects
     url: '#projects'
     weight: 30
-  - name: Certifications
-    url: '#certs'
-    weight: 40
-  - name: Experience
-    url: '#exp'
-    weight: 40
-  - name: Gallery
-    url: '#gallery'
-    weight: 50
+  #- name: Certifications
+   # url: '#certs'
+    #weight: 40
+  #- name: Experience
+   # url: '#exp'
+    #weight: 40
+  #- name: Gallery
+   # url: '#gallery'
+    #weight: 50
   
   - name: Contact
     url: '#contact'
