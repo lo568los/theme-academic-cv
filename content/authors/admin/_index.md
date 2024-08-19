@@ -31,7 +31,7 @@ bio: My research interests include Quantum Information Theory (Open Quantum Syst
 interests:
   - Quantum Information Theory
   - Quantum Computing
-  - Intersection of Quantum Information and Condensed Matter Physics
+  - Quantum Information applications in Condensed Matter Physics
 
 # Education to show in About widget
 education:
@@ -89,10 +89,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:soumyadeepsarma3@gmail.com
-  - icon: instagram
-    icon_pack: fab
-    link: https://www.instagram.com/lo5.68los/
-    label: Follow me on Insta
+  #- icon: instagram
+  #  icon_pack: fab
+  #  link: https://www.instagram.com/lo5.68los/
+  #  label: Follow me on Insta
     display:
       header: true
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
@@ -107,9 +107,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/CV_Soumyadeep.pdf
+  #- icon: cv
+  #  icon_pack: ai
+  #  link: uploads/CV_Soumyadeep.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

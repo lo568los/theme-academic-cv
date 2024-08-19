@@ -2,7 +2,7 @@
 title: Example Project
 summary: An example of using the in-built project page.
 tags:
-  - Q.Info
+  - QInfo
 date: '2024-08-10T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

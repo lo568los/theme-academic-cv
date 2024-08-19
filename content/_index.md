@@ -85,9 +85,9 @@ sections:
         - name: All
           tag: '*'
         - name: Q.Comp
-          tag: Q.Comp
+          tag: QComp
         - name: Q.Info
-          tag: Q.Info
+          tag: QInfo
         - name: Stat Mech/CMT
           tag: Stat/CMT
         - name: Other

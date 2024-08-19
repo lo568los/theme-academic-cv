@@ -2,8 +2,8 @@
 title: A report on Floquet Codes
 summary: We summarise some of the key results of the innovative ideas in Floquet Codes, and provide rigorous proofs of all theorems
 tags:
-  - Q.Info
-  - Q.Comp
+  - QInfo
+  - QComp
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
