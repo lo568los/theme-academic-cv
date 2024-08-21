@@ -185,7 +185,7 @@ sections:
           date_end: '2024-02-20'
           date_start: '2023-07-25'
           description: |2-
-                      * Obtained the Advanced Badge as part of the Quantum Explorers 2023 Cohort
+                    * Obtained the Advanced Badge as part of the Quantum Explorers 2023 Cohort
           icon: ibm
           organization: IBM Quantum
           organization_url: https://www.ibm.com/quantum
@@ -195,7 +195,7 @@ sections:
           date_end: '2023-07-31'
           date_start: '2023-07-14'
           description: |2-
-                      * Got the Quantum excellence badge in Qiskit Global Summer school 2023
+                    * Got the Quantum excellence badge in Qiskit Global Summer school 2023
           icon: ibm
           organization: IBM Quantum
           organization_url: https://www.ibm.com/quantum
