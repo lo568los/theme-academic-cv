@@ -172,7 +172,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Online Certifications'
-      subtitle:
+      subtitle: Other certifications present on LinkedIn for the sake of brevity
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.
@@ -181,10 +181,11 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.credly.com/badges/2e7d68ad-93a6-4a86-a809-0f779aaf4b4e/public_url
+        - certificate_url: https://www.credly.com/badges/82f72234-1190-4001-a6f3-c3fa2609e82b/public_url
           date_end: '2024-02-20'
           date_start: '2023-07-25'
-          description: Obtained the Advanced Badge
+          description: |2-
+                      * Obtained the Advanced Badge as part of the Quantum Explorers 2023 Cohort
           icon: ibm
           organization: IBM Quantum
           organization_url: https://www.ibm.com/quantum
@@ -193,7 +194,8 @@ sections:
         - certificate_url: https://www.credly.com/badges/2e7d68ad-93a6-4a86-a809-0f779aaf4b4e/public_url
           date_end: '2023-07-31'
           date_start: '2023-07-14'
-          description: Got the Quantum excellence badge in Qiskit Global Summer school
+          description: |2-
+                      * Got the Quantum excellence badge in Qiskit Global Summer school 2023
           icon: ibm
           organization: IBM Quantum
           organization_url: https://www.ibm.com/quantum
