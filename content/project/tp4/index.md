@@ -3,7 +3,7 @@ title: MQ based identification signatures
 summary: We study the construction security and implementation aspects of MQDSS, a MQ-based signature scheme based of the MQ-based identification scheme
 tags:
   - Other
-date: '2024-04-27T00:00:00Z'
+date: '2023-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

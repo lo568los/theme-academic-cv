@@ -3,7 +3,7 @@ title: K.P Perturbation theory
 summary: We study the theoretical framework of k.p perturbation theory, and then utilise it to numerically show band structures for GaAs Wurtzite.
 tags:
   - Stat and CMT
-date: '2016-04-27T00:00:00Z'
+date: '2023-11-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
