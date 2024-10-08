@@ -3,7 +3,7 @@ title: Quantum Van der Pol Oscillators - Theory and Applications
 summary: We study the theoretical framework of Quantum Van der pol oscillators, and then understand its application in Phonon Lasers
 tags:
   - QInfo
-date: '2023-07-216T00:00:00Z'
+date: '2023-07-21T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
