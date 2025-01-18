@@ -123,6 +123,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Officer
+          company: A*STAR Agency
+          company_url: https://www.a-star.edu.sg/
+          company_logo: org-astar
+          location: Singapore
+          date_start: '2025-01-06'
+          date_end: ''
+          description: |2-
+              Working as an undergraduate researcher on quantum error correction. Responsibilities include:
+
+              * Reviewing literature on Floquet codes and code-switching.
+              * Analysing code-switching techniques relevant for fault tolerant logical gates in Floquet codes.
         - title: LTVSP Fellow
           company: ICTS Bangalore
           company_url: https://www.icts.res.in/
