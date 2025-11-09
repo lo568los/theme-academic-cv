@@ -1,5 +1,6 @@
 ---
 title: Design and benchmarks for emulating Kondo dynamics on a quantum chip
+summary: We formulate a novel quantum circuit to emulate periodic time-dependent Kondo Physics and also solve for our system analytically using Bosonization.
 authors:
 - Soumyadeep Sarma
 - Jukka I. Väyrynen

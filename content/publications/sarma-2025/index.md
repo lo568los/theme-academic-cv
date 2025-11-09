@@ -1,6 +1,7 @@
 ---
 title: A numerical study of the zeroes of the grand partition function of hard needles
   of length $k$ on stripes of width $k$
+summary: I find novel results and methods for k = 3 rods on 3 by L strips, and utilize transfer matrix and analytic techniques involving branch cuts to study such systems.
 authors:
 - Soumyadeep Sarma
 date: '2025-01-01'
