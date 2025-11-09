@@ -36,9 +36,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BSc (Research). Major in Physics, Minor in Quantum Technologies
+    - course: BS-MS (Research). Major in Physics, Minor in Quantum Technologies
       institution: Indian Institute of Science
-      year: 2025
+      year: 2026
     
 
 # Skills
