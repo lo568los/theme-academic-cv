@@ -61,7 +61,7 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: true
+        exclude_featured: false
     design:
       columns: '2'
       view: citation
@@ -107,9 +107,9 @@ sections:
         folders:
           - publication
         featured_only: true
-    #design:
-     # columns: '2'
-    #view: card
+    design:
+      columns: '2'
+    view: card
   - block: experience
     id: exp
     content:
