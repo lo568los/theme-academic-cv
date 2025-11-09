@@ -140,7 +140,7 @@ sections:
           company_logo: org-astar
           location: Singapore
           date_start: '2025-01-06'
-          date_end: ''
+          date_end: '2025-02-28'
           description: |2-
               Working as an undergraduate researcher on quantum error correction. Responsibilities include:
 
@@ -152,7 +152,7 @@ sections:
           company_logo: org-ICTS
           location: Bangalore
           date_start: '2024-08-02'
-          date_end: ''
+          date_end: '2025-04-30'
           description: |2-
               Working as an undergraduate researcher on Open Quantum systems. Responsibilities include:
 
