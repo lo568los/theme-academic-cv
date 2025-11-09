@@ -15,7 +15,7 @@ links:
 featured: true
 ---
 
-This project is a part of the NIUS programme done under Prof. Deepak Dhar from ICTS Bangalore. The first part of the project (for about 2 months) involved reading and the extending the following paper's work (), as well as reading about other topics in advanced statistical mechanics to get a feel for the tools I would be utilizing later on in the project.
+This project is a part of the NIUS programme done under Prof. Deepak Dhar from ICTS Bangalore. The first part of the project (for about 2 months) involved reading and the extending another student's work on phase transitions in systems of hard rods on lattices (https://arxiv.org/abs/2109.07881), as well as reading about other topics in advanced statistical mechanics to get a feel for the tools I would be utilizing later on in the project.
 
 While Heilman and Lieb's results for dimers on a 2D lattice model have been theoretically proven (and numerically verified in our draft, for a 2 by L strip), there has been no study done about trimers on a 3 by L strip, or in the more general setting, on a 2D lattice. In this project, I find two novel transfer matrix formulations for calculating the partition function encompassing all such configurations for a general L, and utilize some clever algebraic tricks to compress the size of the transfer matrices. 
 
