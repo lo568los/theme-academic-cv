@@ -1,6 +1,7 @@
 ---
 title: Decoding tensor network codes
 summary: We explore decoding tensor network codes utilizing code decomposition ideas from matroid theory
+tags:
   - QInfo
   - QComp
 date: '2025-11-27T00:00:00Z'

@@ -1,6 +1,7 @@
 ---
 title: NRQM Scattering on a quantum computer
 summary: We study the wave packet scattering for double barrier and Morse potentials, and connect it to ideas in QFT
+tags:
   - QInfo
   - QComp
 date: '2025-11-27T00:00:00Z'
