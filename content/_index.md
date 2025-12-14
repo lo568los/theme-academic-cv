@@ -136,6 +136,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Intern
+          company: Caltech (Remote)
+          company_url: https://www.caltech.edu/
+          company_logo: org-caltech
+          location: Pasadena, CA
+          date_start: '2025-03-06'
+          date_end: '2025-12-31'
+          description: |2-
+              Working as an undergraduate researcher on finite-temperature magic in quantum chaotic Hamiltonian:
+
+              * Utilizing exact diagonalization, polynomial filtering and chebhyshev expansions to numerically obtain filtered stabilizer entropy.
+              * Used Weingarten calculus to obtain analytical results complementing numerical Scrooge ensemble data.
         - title: Research Officer
           company: A*STAR Agency
           company_url: https://www.a-star.edu.sg/
