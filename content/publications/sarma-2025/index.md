@@ -13,7 +13,7 @@ doi: 10.1088/1751-8121/adc9e8
 links:
 - name: URL
   url: https://iopscience.iop.org/article/10.1088/1751-8121/adc9e8/meta
-featured: true
+featured: false
 ---
 
 This project is a part of the NIUS programme done under Prof. Deepak Dhar from ICTS Bangalore. The first part of the project (for about 2 months) involved reading and the extending another student's work on phase transitions in systems of hard rods on lattices (https://arxiv.org/abs/2109.07881), as well as reading about other topics in advanced statistical mechanics to get a feel for the tools I would be utilizing later on in the project.

@@ -1,30 +1,21 @@
 ---
 title: Semidefinite Programming for understanding limitations of Lindblad Equations
 summary: We use semidefinite programming (SDP) to establish rigorous no-go theorems on the fundamental limitations of Lindblad equations in correctly modeling non-equilibrium steady states.
-tags:
-  - QInfo
-  - QComp
-date: '2025-10-15T00:00:00Z'
-
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
-image:
-  caption: Photo taken from our a draft to be uploaded on arxiv soon
-  focal_point: Smart
-
-
-url_code: 'https://github.com/lo568los/LimitationLindbladians'
-url_pdf: ''
-#url_slides: ''
-#url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+authors:
+- Soumyadeep Sarma
+- Manas Kulkarni
+- Archak Purkayastha
+- Devashish Tupkary
+date: '2026-02-03'
+publishDate: '2026-02-02T09:37:01.489621Z'
+publication_types:
+- article-journal
+publication: '*arXiV preprint*'
+doi: 
+links:
+- name: URL
+  url: https://arxiv.org/abs/2602.01794
+featured: true
 ---
 
 This project is a part of the LTVSP Fellowship done with Dr. Manas Kulkarni from ICTS Bangalore. The first part of this project involved investigating the fundamental limitations of Lindblad-form Quantum Master Equations (QMEs) in modeling open quantum systems. We tested whether a QME can simultaneously be physically consistent (i.e., completely positive and trace-preserving), satisfy local conservation laws, and accurately reproduce the correct non-equilibrium steady state (NESS). To do this, we formulated these desirable properties as a convex optimization problem, solvable using Semidefinite Programming (SDP). This method numerically searches for the "best possible" Lindbladian and returns two metrics, $\tau_{\text{opt}}^{\text{pop}}$ and $\tau_{\text{opt}}^{\text{pop, coh}}$, which are zero if a valid QME exists and non-zero if it is impossible. We applied this framework to XXZ and XX spin chains, specifically comparing systems with one ($N_L=N_R=1$) and two ($N_L=N_R=2$) qubits coupled to thermal baths at different temperatures.

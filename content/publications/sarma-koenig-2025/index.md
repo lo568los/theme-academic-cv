@@ -4,7 +4,7 @@ summary: We formulate a novel quantum circuit to emulate periodic time-dependent
 authors:
 - Soumyadeep Sarma
 - Jukka I. Väyrynen
-- Elio J. K\n̈ig
+- Elio J. K\"onig
 date: '2025-06-01'
 publishDate: '2025-11-09T09:37:01.489621Z'
 publication_types:
