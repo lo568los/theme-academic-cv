@@ -16,7 +16,7 @@ publication: '*Proceedings of the 54th ACM Technical Symposium on Computer Scien
 # links:
 # - name: Custom Link
 #   url: http://example.org
-recent: true
+
 url_pdf: 'https://dl.acm.org/doi/10.1145/3545947.3573225'
 url_code: 'https://github.com/viraj-kumar/Bug-eecha'
 
