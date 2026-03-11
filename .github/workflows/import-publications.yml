@@ -54,21 +54,6 @@ jobs:
           labels: automated-pr, content
           branch: hugoblox-import-publications
           delete-branch: true
-      - name: Create Pull Request
-        # Set ID for `Check outputs` stage
-        id: cpr
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: 'content: import publications from Bibtex'
-          title: Hugo Blox Builder - Import latest publications
-          body: |
-            Import the latest and old publications from `publications.bib` and `oldpubs.bib` to `content/publications/` and `content/old-publications/`.
-            将最新的和旧的出版物从`publications.bib`和`oldpubs.bib`导入到`content/publications/`和`content/old-publications/`。
-            [View Documentation](https://github.com/GetRD/academic-file-converter)
-          base: main
-          labels: automated-pr, content
-          branch: hugoblox-import-publications
-          delete-branch: true
       - name: Check outputs
         if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
