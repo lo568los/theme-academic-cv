@@ -53,7 +53,6 @@ sections:
     design:
       columns: '1'
   - block: collection
-    id: papers
     content:
       title: Featured Publications
       filters:
@@ -63,31 +62,32 @@ sections:
     design:
       view: article-grid
       columns: 2
+  #- block: collection
+  #  id: papers
+  #  content:
+  #    title: Recent Publications
+  #    text: 'Check out my google scholar for a more complete list'
+  #    filters:
+  #      folders:
+  #        - publications
+  #      exclude_featured: false
+  #  design:
+  #    view: citation
   - block: collection
+    id: pubs
     content:
       title: Recent Publications
-      text: ''
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
       filters:
         folders:
           - publications
         exclude_featured: false
     design:
+      columns: '2'
       view: citation
-  #- block: collection
-  #  id: pubs
-  #  content:
-  #    title: Recent Publications
-  #    text: |-
-  #      {{% callout note %}}
-  #      Quickly discover relevant content by [filtering publications](./publication/).
-  #      {{% /callout %}}
-  #    filters:
-  #      folders:
-  #        - publication
-  #      exclude_featured: false
-  #  design:
-  #    columns: '2'
-  #    view: citation
 
   - block: portfolio
     id: projects
