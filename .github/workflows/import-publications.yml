@@ -41,7 +41,7 @@ jobs:
       
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
-        id: cpr
+        #id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: 'content: import publications from Bibtex'
