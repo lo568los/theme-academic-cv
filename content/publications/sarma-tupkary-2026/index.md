@@ -16,7 +16,8 @@ links:
 - name: URL
   url: https://arxiv.org/abs/2602.01794
 featured: true
-recent: true
+tags:
+  - recent
 ---
 
 This project is a part of the LTVSP Fellowship done with Dr. Manas Kulkarni from ICTS Bangalore. The first part of this project involved investigating the fundamental limitations of Lindblad-form Quantum Master Equations (QMEs) in modeling open quantum systems. We tested whether a QME can simultaneously be physically consistent (i.e., completely positive and trace-preserving), satisfy local conservation laws, and accurately reproduce the correct non-equilibrium steady state (NESS). To do this, we formulated these desirable properties as a convex optimization problem, solvable using Semidefinite Programming (SDP). This method numerically searches for the "best possible" Lindbladian and returns two metrics, $\tau_{\text{opt}}^{\text{pop}}$ and $\tau_{\text{opt}}^{\text{pop, coh}}$, which are zero if a valid QME exists and non-zero if it is impossible. We applied this framework to XXZ and XX spin chains, specifically comparing systems with one ($N_L=N_R=1$) and two ($N_L=N_R=2$) qubits coupled to thermal baths at different temperatures.
