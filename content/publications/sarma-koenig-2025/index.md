@@ -15,9 +15,7 @@ links:
 - name: URL
   url: https://link.aps.org/doi/10.1103/c864-5bbt
 featured: true
-recent: true
-tags:
-  - recent
+tag: recent
 ---
 
 This project is a part of the DAAD Fellowship done under Prof. Elio Koenig from MPI Solid State Research. The first part of the project involved reading about Kondo physics, understanding its formulation as a quantum circuit via the Jordan-Wigner transformation and then utilizing Qiskit to form the circuit and obatain numerical data on observables of impurity magnetization, entanglement between impurity and fermionic sites and Hamiltonian heating as a function of time (i.e. circuit depth here) for different starting states. We utilize system sizes of 13 and 21 qubits for our analysis. These numerics have also been cross-checked using exact diagonalization (ED) for 13 quibts.
