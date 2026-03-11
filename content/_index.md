@@ -84,9 +84,9 @@ sections:
       filters:
         folders:
           - publications
-        tags:
-          - recent
+        tag: recent
         exclude_featured: false
+        recent_only: true
     design:
       columns: '2'
       view: citation

@@ -15,7 +15,6 @@ publication: '*Proceedings of the 16th Annual ACM India Compute Conference*'
 # links:
 # - name: Custom Link
 #   url: http://example.org
-recent: true
 
 url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3627217.3627236'
 url_code: 'https://github.com/viraj-kumar/Bug-eecha'
