@@ -83,7 +83,7 @@ sections:
         {{% /callout %}}
       filters:
         folders:
-          - publications
+          - rec_pubs
         tags: 
           - recent
         exclude_featured: false
