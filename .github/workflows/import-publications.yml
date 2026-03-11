@@ -30,18 +30,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install academic==0.10.0
-      # Split into two separate steps to avoid duplicate YAML keys
-      - name: Run Academic (Current Publications)
-        if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publications/ --compact
-      
-      - name: Run Academic (Old Publications)
+      - name: Run Academic (Bibtex To Markdown Converter)
+        # Check `.bib` file exists for case when action runs on `.bib` deletion
+        # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
+        #if: ${{ hashFiles('publications.bib') != '' }}
+        #run: academic import publications.bib content/publications/ --compact
         if: ${{ hashFiles('oldpubs.bib') != '' }}
         run: academic import oldpubs.bib content/old-publications/ --compact
-      
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
-        #id: cpr
+        id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: 'content: import publications from Bibtex'
@@ -59,6 +57,7 @@ jobs:
         run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+
 
 
 
